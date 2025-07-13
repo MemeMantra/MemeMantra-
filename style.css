@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  background: #20232a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+section {
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #aaa;
+}
+.sound-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+footer {
+  background: #20232a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
